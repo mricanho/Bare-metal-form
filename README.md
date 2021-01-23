@@ -27,7 +27,7 @@ rails console
 To initialize the application.
 ### Author
 
-👤 **Miguel Ricaño*
+👤 *Miguel Ricaño*
 
 - Github: [@mricanho](https://github.com/mricanho)
 - Linkedin: [Miguel Ricaño](https://www.linkedin.com/in/mricanho/)
