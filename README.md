@@ -1,6 +1,6 @@
 # Forms
 
-In this project, I build an application similar to Reddit (called Micro-Reddit), just the backend, no front-end. The scope is to test the knowledge of active record, models, and associations. 
+In this project, I build two simple forms. The scope is to test the knowledge of routes, models, controllers and #form_tag and #form_for syntax. 
 
 ![screenshot](./code.jpeg)
 ## Built With
@@ -13,7 +13,7 @@ In this project, I build an application similar to Reddit (called Micro-Reddit),
 To run this project locally, please ensure you have Ruby and Ruby on Rails installed on your machine, then clone this repository by running.
 
 ```bash
-git clone https://github.com/mricanho/micro-reddit.git
+git clone https://github.com/mricanho/Bare-metal-form
 ```
 Once you are in your local directory, open your console and write:
 
@@ -22,9 +22,21 @@ rails db:migrate
 ```
 After that put:
 ```bash
-rails console
+rails s
 ```
-To initialize the application.
+To set up the server.
+
+After open your favorite web-browser and copy paste the next:
+
+```bash
+http://localhost:3000/users/new
+```
+Play with the form and create a new user, then copy and paste the next: 
+
+```bash
+http://localhost:3000/users/1/edit
+```
+
 ### Author
 
 👤 *Miguel Ricaño*
