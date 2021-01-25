@@ -1,24 +1,65 @@
-# README
+# Forms
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In this project, I build two simple forms. The scope is to test the knowledge of routes, models, controllers and #form_tag and #form_for syntax. 
 
-Things you may want to cover:
+![screenshot](./code.jpeg)
+## Built With
 
-* Ruby version
+- Ruby 2.7.2
+- Ruby on Rails 6.1.1
 
-* System dependencies
+### Setup
 
-* Configuration
+To run this project locally, please ensure you have Ruby and Ruby on Rails installed on your machine, then clone this repository by running.
 
-* Database creation
+```bash
+git clone https://github.com/mricanho/Bare-metal-form
+```
+Open your terminal and CD to the directory where you create the clone repository.
 
-* Database initialization
+Now run:
 
-* How to run the test suite
+```bash
+bundle install
+```
+Then run:
 
-* Services (job queues, cache servers, search engines, etc.)
+```bash
+rails db:migrate
+```
+After that put:
+```bash
+rails s
+```
+To set up the server.
 
-* Deployment instructions
+After this you can open your favorite web-browser and copy paste the next:
 
-* ...
+```bash
+http://localhost:3000/users/new
+```
+Play with the form and create a new user, then copy and paste the next: 
+
+```bash
+http://localhost:3000/users/1/edit
+```
+
+### Author
+
+👤 *Miguel Ricaño*
+
+- Github: [@mricanho](https://github.com/mricanho)
+- Linkedin: [Miguel Ricaño](https://www.linkedin.com/in/mricanho/)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse
+- The Odin Project
+
+## 📝 License
+
+This project is [MIT](LICENSE) licensed.
