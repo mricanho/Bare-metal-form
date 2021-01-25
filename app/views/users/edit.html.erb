@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit view</title>
+</head>
+<body>
+<h1>Edit view</h1>
+<%= form_for @user do |f| %>
+  USERNAME:<%= f.text_field :username %> <br />
+  EMAIL:<%= f.text_field :email, :value => "yourmail@email.com" %> <br />
+  PASSWORD: <%= f.password_field :password %><br />
+  <%= f.submit %>
+<% end %>
+  
+</body>
+</html>
