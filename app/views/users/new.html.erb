@@ -6,8 +6,8 @@
   <title>New</title>
 </head>
 <body>
-  <%# <h1>Hey!</h1> %>
-  <%# <form accept-charset="UTF-8" action="/users" method="post"> 
+  <%# <h1>New User</h1> %>
+  <%# <form accept-charset="UTF-8" action="user_path" method="post"> 
     <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
     
     <%# <label for="username">Username:</label>
@@ -23,7 +23,7 @@
 
   </form>%>
   
-  <!-- <%= form_tag("/users", method: "post") do %>
+  <!-- <%= form_tag("/users") do %>
 
     <%= label_tag(:username, "Username:") %>
     <%= text_field_tag(:username) %><br>
@@ -37,7 +37,7 @@
     <%= submit_tag("Submit") %>
 
   <% end %> -->
-  <<h1>New User View</h1>
+  <h1>New User View</h1>
 
   <%= form_for @user do |f| %>
     <p>

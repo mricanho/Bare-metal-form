@@ -15,7 +15,14 @@ To run this project locally, please ensure you have Ruby and Ruby on Rails insta
 ```bash
 git clone https://github.com/mricanho/Bare-metal-form
 ```
-Once you are in your local directory, open your console and write:
+Open your terminal and CD to the directory where you create the clone repository.
+
+Now run:
+
+```bash
+bundle install
+```
+Then run:
 
 ```bash
 rails db:migrate
@@ -26,7 +33,7 @@ rails s
 ```
 To set up the server.
 
-After open your favorite web-browser and copy paste the next:
+After this you can open your favorite web-browser and copy paste the next:
 
 ```bash
 http://localhost:3000/users/new
@@ -55,4 +62,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](LICENSE.md) licensed.
+This project is [MIT](./LICENSE.md) licensed.
