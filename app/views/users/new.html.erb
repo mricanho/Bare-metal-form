@@ -53,6 +53,12 @@
       <%= f.password_field :password %>
     </p>
     <p><%= f.submit %></p>
+    <ul>
+      <% @user.errors.full_messages.each do |error| %>
+      <li><%= error %></li>
+      <% end %>
+    </ul>
+    
   <% end %>
   
 </body>
